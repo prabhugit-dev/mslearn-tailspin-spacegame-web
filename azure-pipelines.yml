@@ -42,7 +42,7 @@ steps:
     minorVersion: '0'
     patchVersion: '0'
  
-cd- task: NuGetCommand@2
+- task: NuGetCommand@2
   displayName: 'Publish NuGet package'
   inputs:
     command: push
