@@ -49,4 +49,4 @@ steps:
     publishVstsFeed: 'Space Game - web - Dependencies/Tailspin.SpaceGame.Web.Model'
     allowPackageConflicts: true
   condition: succeeded()
-
+- task: PublishBuildArtifacts@1
